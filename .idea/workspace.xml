@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eecd2094-7346-4289-990e-a6a7a88f9cde" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/scala_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/akka-basics-for-scala.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/akka-basics-for-scala.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$44057eaadc620254d259$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$44057eaadc620254d259.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$44057eaadc620254d259.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$75e5e7200e4d8774a475$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$75e5e7200e4d8774a475.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$75e5e7200e4d8774a475.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$88aad54c9bd7c101d08c$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$88aad54c9bd7c101d08c.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$88aad54c9bd7c101d08c.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$8ebcfe9a94bfcabad258$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$8ebcfe9a94bfcabad258.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$8ebcfe9a94bfcabad258.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$b74a7f99e4abe3196279$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$b74a7f99e4abe3196279.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$b74a7f99e4abe3196279.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$bf8898bdc37d0f191eb7$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$bf8898bdc37d0f191eb7.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$bf8898bdc37d0f191eb7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$fb4f9ba98631fea707f6$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$fb4f9ba98631fea707f6.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/config-classes/$fb4f9ba98631fea707f6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins$V$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins$V$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/classes/CompilerPlugins.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/scala-2.12/sbt-1.0/zinc/inc_compile_2.12.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/exportedProducts/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/exportedProducts/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/internalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Akkaccino$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Akkaccino$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$OrderCoffee$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$OrderCoffee$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$OrderCoffee.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista$OrderCoffee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Barista.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/CaffeJava$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/CaffeJava$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Main$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/Main$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/MochaPlay$.class" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/classes/com/lightbend/training/MochaPlay$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/update/update_cache_2.13/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/update/update_cache_2.13/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/update/update_cache_2.13/output" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/update/update_cache_2.13/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/zinc/inc_compile_2.13.zip" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/scala-2.13/zinc/inc_compile_2.13.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.13/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/_global/_global/compileOutputs/previous" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/_global/_global/compileOutputs/previous" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/scala/001_barista_object_oriented/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;fResult&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:fResult/Akka-Basics-Exercises.git&quot;,
+    &quot;accountId&quot;: &quot;4f613fae-903a-4c6d-bb38-c5e8c2005d73&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uTk3lIDspIrAod7dmWo5UGYg7c" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Scala REPL.Scala REPL.executor": "Run",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.lightbend.training.Main" />
+      <module name="akka-basics-for-scala" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lightbend.training.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scala REPL" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <module name="akka-basics-for-scala" />
+      <option name="allowRunningInParallel" value="false" />
+      <option name="envFilePaths">
+        <list />
+      </option>
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="javaOptions" value="" />
+      <option name="myConsoleArgs" value="" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Scala REPL.Scala REPL" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="scala3DisclaimerShown" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eecd2094-7346-4289-990e-a6a7a88f9cde" name="Changes" comment="" />
+      <created>1708331764587</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1708331764587</updated>
+    </task>
+    <servers />
+  </component>
+</project>
