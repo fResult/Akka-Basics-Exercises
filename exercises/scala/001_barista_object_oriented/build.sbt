@@ -1,13 +1,12 @@
 name := "coffee-house"
 
-version := "0.0.3"
+ThisBuild / version := "0.0.3"
+ThisBuild / scalaVersion := "3.6.4"
 
-scalaVersion := "2.13.10"
+//resolvers += "Akka library repository".at("https://repo.akka.io/maven")
 
-resolvers += "Akka library repository".at("https://repo.akka.io/maven")
-
-lazy val akkaVersion = "2.9.4"
-lazy val scalatestVersion = "3.1.4"
+val akkaVersion = "2.8.8"
+lazy val scalatestVersion = "3.2.19"
 
 // Run in a separate JVM, to make sure sbt waits until all threads have
 // finished before returning.
@@ -17,10 +16,8 @@ fork := true
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
-  "ch.qos.logback" % "logback-classic" % "1.2.11",
+  "ch.qos.logback" % "logback-classic" % "1.5.17",
+//  "com.typesafe" % "config" % "1.4.3", // Used by `akka-actor-typed`'s ActorSystem
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test,
-  "org.scalatest" %% "scalatest" % "3.1.4" % Test,
+  "org.scalatest" %% "scalatest" % scalatestVersion % Test,
 )
-
-// Better monadic for-comprehensions
-addCompilerPlugin(CompilerPlugins.betterForComp)
