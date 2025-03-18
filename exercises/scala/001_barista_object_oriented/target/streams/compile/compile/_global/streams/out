@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/brenteritou/Downloads/akka-basics-for-scala/exercises/scala/001_barista_object_oriented/src/main/scala/com/lightbend/training/Barista.scala:21:3: Missing closing brace `}` assumed here[0m
+[0m[[0m[31merror[0m] [0m[0m  def printOrders(orders: Set[(String, Coffee)]): String = {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

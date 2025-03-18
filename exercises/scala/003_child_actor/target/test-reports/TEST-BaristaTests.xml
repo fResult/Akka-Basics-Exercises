@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="Brents-MacBook-Pro-3.local" name="BaristaTests" tests="2" errors="0" failures="0" skipped="0"
+           time="0.01" timestamp="2024-07-22T13:26:51">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/opt/homebrew/Cellar/sbt/1.9.9/libexec/bin/sbt-launch.jar test"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="
+"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="user.name" value="brenteritou"/>
+    <property name="log4j.ignoreTCL" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="java.io.tmpdir" value="/var/folders/l6/69fc5y_14x93w1mnx3q3gbg80000gn/T/"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path"
+              value="/Users/brenteritou/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="scala.ext.dirs" value="/Users/brenteritou/.sbt/1.0/java9-rt-ext-eclipse_adoptium_17_0_6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.path" value="/opt/homebrew/Cellar/sbt/1.9.9/libexec/bin/sbt-launch.jar"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="jline.shutdownhook" value="false"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/brenteritou"/>
+    <property name="user.language" value="en"/>
+    <property name="sbt.script" value="/opt/homebrew/Cellar/sbt/1.9.9/libexec/bin/sbt"/>
+    <property name="sbt.ipcsocket.tmpdir"
+              value="/var/folders/l6/69fc5y_14x93w1mnx3q3gbg80000gn/T/.sbtf3093c07/ipcsocket"/>
+    <property name="swoval.tmpdir" value="/var/folders/l6/69fc5y_14x93w1mnx3q3gbg80000gn/T/.sbtf3093c07/swoval"/>
+    <property name="jline.esc.timeout" value="0"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="14.5"/>
+    <property name="jna.nosys" value="true"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="user.dir"
+              value="/Users/brenteritou/dev/testing/akka-basics-for-scala/exercises/scala/003_child_actor"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase classname="BaristaTests" name="Barista should log receiving order" time="0.008">
+
+  </testcase>
+  <testcase classname="BaristaTests"
+            name="Barista should spawn a child actor CoffeeMachine with as actor name 'coffee-machine'" time="0.002">
+
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
