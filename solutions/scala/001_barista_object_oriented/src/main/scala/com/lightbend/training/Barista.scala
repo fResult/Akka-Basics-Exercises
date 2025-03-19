@@ -24,7 +24,7 @@ object Barista {
       message match {
         case OrderCoffee(whom, coffee) =>
           orders.put(whom, coffee)
-          context.log.info(s"Orders:${printOrders(orders.toSet)}")
+          context.log.info(s"Orders: ${printOrders(orders.toSet)}")
           this
       }
     }
