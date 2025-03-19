@@ -1,13 +1,14 @@
 package com.lightbend.training
 
-import scala.collection._
 import akka.actor.typed.Behavior
-import akka.actor.typed.scaladsl._
+import akka.actor.typed.scaladsl.{AbstractBehavior, ActorContext, Behaviors}
+
+import scala.collection.mutable
 
 object Barista {
 
   def apply(): Behavior[OrderCoffee] =
-    Behaviors.setup(newBaristaBehavior(_))
+    Behaviors.setup(BaristaBehavior(_))
 
   def printOrders(orders: Set[(String, Coffee)]): String = {
     val formattedOrders = orders.map(order => s"${order._1}->${order._2}")
@@ -17,16 +18,19 @@ object Barista {
 
   final case class OrderCoffee(whom: String, coffee: Coffee)
 
-  class BaristaBehavior(context: ActorContext[OrderCoffee]) extends AbstractBehavior[OrderCoffee](context) {
+  private class BaristaBehavior(context: ActorContext[OrderCoffee])
+      extends AbstractBehavior[OrderCoffee](context) {
+
     private val orders: mutable.Map[String, Coffee] = mutable.Map()
 
     override def onMessage(message: OrderCoffee): Behavior[OrderCoffee] = {
       message match {
         case OrderCoffee(whom, coffee) =>
           orders.put(whom, coffee)
-          context.log.info(s"Orders:${printOrders(orders.toSet)}")
-          this
+          context.log.info(s"Orders: ${printOrders(orders.toSet)}")
       }
+
+      this
     }
   }
 }
