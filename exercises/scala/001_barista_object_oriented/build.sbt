@@ -16,7 +16,7 @@ fork := true
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
-  "ch.qos.logback" % "logback-classic" % "1.5.17",
+  "ch.qos.logback" % "logback-classic" % "1.5.18",
 //  "com.typesafe" % "config" % "1.4.3", // Used by `akka-actor-typed`'s ActorSystem
   "com.typesafe.akka" %% "akka-actor-testkit-typed" % akkaVersion % Test,
   "org.scalatest" %% "scalatest" % scalatestVersion % Test,
