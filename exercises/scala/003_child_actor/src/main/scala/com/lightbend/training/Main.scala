@@ -10,15 +10,15 @@ import com.lightbend.training.Barista.OrderCoffee
 object Main {
 
   def main(args: Array[String]): Unit = {
-    val barista: ActorSystem[OrderCoffee] = ActorSystem(Barista(), "barista")
+    val actorSystem: ActorSystem[OrderCoffee] = ActorSystem(Barista(), "barista")
 
-    barista ! OrderCoffee("Bart", Akkaccino)
-    barista ! OrderCoffee("Lisa", MochaPlay)
+    actorSystem ! OrderCoffee("Bart", Akkaccino)
+    actorSystem ! OrderCoffee("Lisa", MochaPlay)
 
     println(">>> Press ENTER to exit <<<")
     readLine()
     Exception.ignoring(classOf[IOException])
 
-    barista.terminate()
+    actorSystem.terminate()
   }
 }
