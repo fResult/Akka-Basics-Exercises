@@ -7,7 +7,7 @@ import akka.actor.typed.scaladsl._
 object Barista {
 
   def apply(): Behavior[OrderCoffee] =
-    Behaviors.setup(newBaristaBehavior(_))
+    Behaviors.setup(BaristaBehavior(_))
 
   def printOrders(orders: Set[(String, Coffee)]): String = {
     val formattedOrders = orders.map(order => s"${order._1}->${order._2}")

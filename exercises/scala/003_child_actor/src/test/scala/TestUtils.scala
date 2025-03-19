@@ -17,7 +17,7 @@ object TestUtils {
     testKit.logEntries().reverse.applyOrElse[Int, CapturedLogEvent](
       offsetFromEnd,
       _ => {
-        throw newRuntimeException(s"Invalid offsetFromEnd parameter, $offsetFromEnd is not within [0, logsSize]")
+        throw RuntimeException(s"Invalid offsetFromEnd parameter, $offsetFromEnd is not within [0, logsSize]")
       }
     )
   }

@@ -9,7 +9,7 @@ import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand
 object Barista {
 
   def apply(): Behavior[OrderCoffee] =
-    Behaviors.setup(newBaristaBehavior(_))
+    Behaviors.setup(BaristaBehavior(_))
 
   def printOrders(orders: Set[(String, Coffee)]): String = {
     val formattedOrders = orders.map(order => s"${order._1}->${order._2}")
@@ -30,7 +30,7 @@ object Barista {
       message match {
         case OrderCoffee(whom, coffee) =>
           orders.put(whom, coffee)
-          context.log.info(s"Orders:${printOrders(orders.toSet)}")
+          context.log.info(s"Orders: ${printOrders(orders.toSet)}")
           this
       }
     }

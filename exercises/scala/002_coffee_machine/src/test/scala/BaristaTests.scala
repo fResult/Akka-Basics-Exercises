@@ -28,7 +28,7 @@ class BaristaTests extends AnyWordSpecLike with Matchers with LogCapturing {
       expectedOrders.put(whom1, coffee1)
       expectedOrders.put(whom2, coffee2)
 
-      val expectedLogEvent: CapturedLogEvent = TestUtils.expectedInfoLog(s"Orders:${Barista.printOrders(expectedOrders.toSet)}")
+      val expectedLogEvent: CapturedLogEvent = TestUtils.expectedInfoLog(s"Orders: ${Barista.printOrders(expectedOrders.toSet)}")
 
       allLogEntries(1) shouldBe expectedLogEvent
     }
