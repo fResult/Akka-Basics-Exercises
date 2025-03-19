@@ -13,13 +13,19 @@ object CoffeeMachine {
   private def idle(): Behavior[CoffeeMachineCommand] =
     Behaviors.setup { context =>
       context.log.info("CoffeeMachine: IDLE")
-      ???
+      Behaviors.receiveMessage {
+        case BrewCoffee(coffee) => handleBrewCoffee(context, coffee)
+        case PickupCoffee => Behaviors.same
+      }
     }
 
   private def coffeeReady(): Behavior[CoffeeMachineCommand] =
     Behaviors.setup { context =>
       context.log.info("CoffeeMachine: Coffee is ready")
-      ???
+      Behaviors.receiveMessage {
+        case BrewCoffee(_) => Behaviors.same
+        case PickupCoffee => idle()
+      }
     }
 
   private def handleBrewCoffee(context: ActorContext[CoffeeMachineCommand], coffee: Coffee): Behavior[CoffeeMachineCommand] = {
@@ -32,7 +38,7 @@ object CoffeeMachine {
       case _ =>
     }
 
-    ???
+    coffeeReady()
   }
 
   sealed trait CoffeeMachineCommand
@@ -40,5 +46,4 @@ object CoffeeMachine {
   final case class BrewCoffee(coffee: Coffee) extends CoffeeMachineCommand
 
   final case object PickupCoffee extends CoffeeMachineCommand
-
 }
