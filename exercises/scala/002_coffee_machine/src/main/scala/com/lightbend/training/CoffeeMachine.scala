@@ -45,5 +45,5 @@ object CoffeeMachine {
 
   final case class BrewCoffee(coffee: Coffee) extends CoffeeMachineCommand
 
-  final case object PickupCoffee extends CoffeeMachineCommand
+  case object PickupCoffee extends CoffeeMachineCommand
 }
