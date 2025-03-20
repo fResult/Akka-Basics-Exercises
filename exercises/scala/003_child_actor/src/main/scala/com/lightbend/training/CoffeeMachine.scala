@@ -1,8 +1,9 @@
 package com.lightbend.training
 
-import scala.util._
 import akka.actor.typed.Behavior
-import akka.actor.typed.scaladsl._
+import akka.actor.typed.scaladsl.*
+
+import scala.util.*
 
 
 object CoffeeMachine {

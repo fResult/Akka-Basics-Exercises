@@ -1,10 +1,10 @@
 package com.lightbend.training
 
-import akka.actor.typed._
-import akka.actor.typed.scaladsl._
 import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand
+import akka.actor.typed.*
+import akka.actor.typed.scaladsl.*
 
-import scala.collection._
+import scala.collection.*
 
 
 object Barista {
@@ -25,7 +25,7 @@ object Barista {
 
     // spawn a coffee machine and get a reference to the coffee-machine child actor,
     // allowing us to send messages to coffee machine
-    private val coffeeMachine: ActorRef[CoffeeMachineCommand] = context.spawn(CoffeeMachine(), "coffee-machine")
+    private val coffeeMachineActorRef: ActorRef[CoffeeMachineCommand] = context.spawn(CoffeeMachine(), "coffee-machine")
 
     override def onMessage(message: OrderCoffee): Behavior[OrderCoffee] = {
       message match {
