@@ -13,11 +13,9 @@ object CoffeeMachine {
     Behaviors.setup { context =>
       context.log.info("CoffeeMachine: IDLE")
       Behaviors.receiveMessage {
-        case BrewCoffee(coffee) =>
-          handleBrewCoffee(context, coffee)
-        case PickupCoffee =>
-          // Can't pick up coffee until coffee is ready, stay in same behavior (equivalent to ignore the message)
-          Behaviors.same
+        case BrewCoffee(coffee) => handleBrewCoffee(context, coffee)
+        // Can't pick up coffee until coffee is ready, stay in same behavior (equivalent to ignore the message)
+        case PickupCoffee => Behaviors.same
       }
     }
 
