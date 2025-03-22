@@ -14,6 +14,7 @@ object Main {
 
     actorSystem ! OrderCoffee("Bart", Akkaccino)
     actorSystem ! OrderCoffee("Lisa", MochaPlay)
+    actorSystem ! OrderCoffee("George", CaffeJava)
 
     println(">>> Press ENTER to exit <<<")
     readLine()

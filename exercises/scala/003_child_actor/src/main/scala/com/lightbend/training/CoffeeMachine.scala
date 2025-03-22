@@ -5,7 +5,6 @@ import akka.actor.typed.scaladsl.*
 
 import scala.util.*
 
-
 object CoffeeMachine {
   def apply(): Behavior[CoffeeMachineCommand] = idle()
 
@@ -47,5 +46,4 @@ object CoffeeMachine {
   final case class BrewCoffee(coffee: Coffee) extends CoffeeMachineCommand
 
   case object PickupCoffee extends CoffeeMachineCommand
-
 }
