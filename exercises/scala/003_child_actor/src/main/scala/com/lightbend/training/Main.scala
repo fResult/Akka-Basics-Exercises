@@ -2,6 +2,7 @@ package com.lightbend.training
 
 import akka.actor.typed.{ActorRef, ActorSystem}
 import com.lightbend.training.Barista.OrderCoffee
+import com.lightbend.training.Coffee.{Akkaccino, CaffeJava, MochaPlay}
 
 import java.io.IOException
 import scala.io.StdIn.readLine

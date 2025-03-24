@@ -2,6 +2,7 @@ package com.lightbend.training
 
 import akka.actor.typed.Behavior
 import akka.actor.typed.scaladsl.*
+import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand.{BrewCoffee, PickupCoffee}
 
 import scala.util.*
 
@@ -41,9 +42,11 @@ object CoffeeMachine {
     coffeeReady()
   }
 
-  sealed trait CoffeeMachineCommand
-
-  final case class BrewCoffee(coffee: Coffee) extends CoffeeMachineCommand
-
-  case object PickupCoffee extends CoffeeMachineCommand
+  // sealed trait CoffeeMachineCommand
+  // final case class BrewCoffee(coffee: Coffee) extends CoffeeMachineCommand
+  // case object PickupCoffee extends CoffeeMachineCommand
+  enum CoffeeMachineCommand {
+    case BrewCoffee(coffee: Coffee)
+    case PickupCoffee
+  }
 }

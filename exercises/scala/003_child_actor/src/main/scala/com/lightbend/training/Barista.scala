@@ -2,7 +2,8 @@ package com.lightbend.training
 
 import akka.actor.typed.*
 import akka.actor.typed.scaladsl.*
-import com.lightbend.training.CoffeeMachine.{BrewCoffee, CoffeeMachineCommand, PickupCoffee}
+import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand
+import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand.{BrewCoffee, PickupCoffee}
 
 import scala.collection.*
 

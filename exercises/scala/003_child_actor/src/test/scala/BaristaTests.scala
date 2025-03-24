@@ -1,12 +1,12 @@
 import scala.collection.mutable
-
-import akka.actor.testkit.typed._
-import akka.actor.testkit.typed.scaladsl._
+import akka.actor.testkit.typed.*
+import akka.actor.testkit.typed.scaladsl.*
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpecLike
 import com.lightbend.training.Barista.OrderCoffee
 import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand
-import com.lightbend.training._
+import com.lightbend.training.*
+import com.lightbend.training.Coffee.{Akkaccino, MochaPlay}
 
 class BaristaTests extends AnyWordSpecLike with Matchers with LogCapturing {
 

@@ -1,9 +1,11 @@
-import akka.actor.testkit.typed.scaladsl._
+import TestUtils.*
+import akka.actor.testkit.typed.scaladsl.*
+import com.lightbend.training.*
+import com.lightbend.training.Coffee.{Akkaccino, MochaPlay}
+import com.lightbend.training.CoffeeMachine.*
+import com.lightbend.training.CoffeeMachine.CoffeeMachineCommand.{BrewCoffee, PickupCoffee}
 import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpecLike
-import com.lightbend.training._
-import com.lightbend.training.CoffeeMachine._
-import TestUtils._
 
 class CoffeeMachineTests extends AnyWordSpecLike with Matchers with LogCapturing {
 
