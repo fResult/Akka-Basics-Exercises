@@ -2,6 +2,7 @@ package com.lightbend.training
 
 import akka.actor.typed.ActorSystem
 import com.lightbend.training.Barista.OrderCoffee
+import com.lightbend.training.Coffee.{Akkaccino, CaffeJava, MochaPlay}
 
 import java.io.IOException
 import scala.io.StdIn.readLine
@@ -14,6 +15,7 @@ object Main {
 
     actorSystem ! OrderCoffee("Bart", Akkaccino)
     actorSystem ! OrderCoffee("Lisa", MochaPlay)
+    actorSystem ! OrderCoffee("John", CaffeJava)
 
     println(">>> Press ENTER to exit <<<")
     readLine()

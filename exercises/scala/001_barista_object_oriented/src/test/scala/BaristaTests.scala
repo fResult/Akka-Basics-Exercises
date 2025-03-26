@@ -5,6 +5,7 @@ import org.scalatest.matchers.should.Matchers
 import org.scalatest.wordspec.AnyWordSpecLike
 import com.lightbend.training.Barista.OrderCoffee
 import com.lightbend.training.*
+import com.lightbend.training.Coffee.{Akkaccino, MochaPlay}
 
 class BaristaTests extends AnyWordSpecLike with Matchers with LogCapturing {
 
