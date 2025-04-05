@@ -8,7 +8,7 @@
 - IDE with Scala support (IntelliJ IDEA, VS Code, etc.)
 - Basic knowledge of Scala
 
-\[Optional\] You can use [SDKMAN!](https://sdkman.io/install) to install JDK23, Scala and SBT:
+\[Optional\] You can use [SDKMAN!](https://sdkman.io/install) to install JDK23, Scala, and SBT:
 
 Installation Example:
 
